@@ -11,11 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-// Autoload classes via Composer
+// Autoload classes via Composer.
 require_once __DIR__ . '/vendor/autoload.php';
 
 use AdminInfoPlugin\AdminInfoPlugin;
 
-// Initialize the plugin
-$adminInfoPlugin = new AdminInfoPlugin();
-$adminInfoPlugin->init();
+// Initialize the plugin.
+$admin_info_plugin = new AdminInfoPlugin();
+$admin_info_plugin->init();
